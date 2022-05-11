@@ -1,29 +1,44 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "Camisa",
-            "price": 59.9
-        },
-        {
-            "id": 2,
-            "name": "Short",
-            "price": 49.9
-        },
-        {
-            "id": 3,
-            "name": "Calça",
-            "price": 79.99
-        },
-        {
-            "id": 4,
-            "name": "Tênis",
-            "price": 139.9
-        },
-        {
-            "id": 5,
-            "name": "Boné",
-            "price": 29.9
-        }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "name": "Camisa",
+      "price": 59.9
+    },
+    {
+      "id": 2,
+      "name": "Short",
+      "price": 49.9
+    },
+    {
+      "id": 3,
+      "name": "Calça",
+      "price": 79.99
+    },
+    {
+      "id": 4,
+      "name": "Tênis",
+      "price": 139.9
+    },
+    {
+      "id": 5,
+      "name": "Boné",
+      "price": 29.9
+    },
+    {
+      "name": "Moletom",
+      "price": "150",
+      "id": 6
+    },
+    {
+      "name": "Capa de Chuva",
+      "price": "25.5",
+      "id": 7
+    },
+    {
+      "name": "Jaqueta",
+      "price": "220.00",
+      "id": 8
+    }
+  ]
 }

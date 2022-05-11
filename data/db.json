@@ -39,6 +39,16 @@
       "name": "Jaqueta",
       "price": "220.00",
       "id": 8
+    },
+    {
+      "name": "Teclado",
+      "price": "210",
+      "id": 9
+    },
+    {
+      "name": "Notebook",
+      "price": "5450",
+      "id": 10
     }
   ]
 }

@@ -49,6 +49,11 @@
       "name": "Notebook",
       "price": "5450",
       "id": 10
+    },
+    {
+      "name": "Gustavo",
+      "price": "5",
+      "id": 11
     }
   ]
 }

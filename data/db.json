@@ -19,56 +19,6 @@
       "id": 4,
       "name": "Tênis",
       "price": 139.9
-    },
-    {
-      "id": 5,
-      "name": "Boné",
-      "price": 29.9
-    },
-    {
-      "name": "Moletom",
-      "price": "150",
-      "id": 6
-    },
-    {
-      "name": "Capa de Chuva",
-      "price": "25.5",
-      "id": 7
-    },
-    {
-      "name": "Jaqueta",
-      "price": "220.00",
-      "id": 8
-    },
-    {
-      "name": "Teclado",
-      "price": "210",
-      "id": 9
-    },
-    {
-      "name": "Notebook",
-      "price": "5450",
-      "id": 10
-    },
-    {
-      "name": "Gustavo",
-      "price": "5",
-      "id": 11
-    },
-    {
-      "name": "Mouse",
-      "price": "20",
-      "id": 12
-    },
-    {
-      "name": "Monitor",
-      "price": "650",
-      "id": 13
-    },
-    {
-      "name": "Fone",
-      "price": "30",
-      "id": 14
     }
   ]
 }

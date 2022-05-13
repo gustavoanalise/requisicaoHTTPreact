@@ -1,71 +1,17 @@
-# Getting Started with Create React App
+# Módulo de Requisições HTTP com React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  Este tópico faz parte do curso que estou fazendo para desenvolver melhor minha habilidades em React. 
+  Neste módulo aprendi sobre a importância do useEffect. Também foi abordado o resgate de dados de uma API, neste caso em questão criado com o JSON-Server que simula uma API. Também, de forma similar ao resgate de dados de uma API, utilizamos o hook useState para resgatar os dados dos forms e após reunirmos eles em uma função utilizamos o request "POST" para a API. 
+  Foi criado um custom hook, que foi nomeado como useFetch. Refatoramos o POST com ele, além de adicionar os intervalos de loading entre a requisição e o recebimento da resposta. Foi realizado o bloqueio de ações indevidas em outras requests, como no POST. Não permitindo o usuário enviar dados "duplicados" por porventura venha haver alguma demora no sistema. Foi então removida a opção de adicionar um novo item à lista enquanto o request anterior ainda não foi finalizado.
+Por fim, foram tratados de possíveis erros das requisições, utilizando o try catch, alterando um state para imprimir ao usuário este erro.
 
-## Available Scripts
+# HTTP Requests Module with React
 
-In the project directory, you can run:
+  This topic is part of the course I'm taking to better develop my React skills.
+  In this module I learned about the importance of useEffect. Also discussed was the rescue of data from an API, in this case created with the JSON-Server that simulates an API. Also, similarly to retrieving data from an API, we use the useState hook to retrieve the data from the forms and after gathering them in a function we use the "POST" request for the API.
+  A custom hook was created, which was named useFetch. We refactored the POST with it, in addition to adding the loading intervals between the request and receiving the response. Undue actions were blocked in other requests, such as POST. Not allowing the user to send "duplicate" data, there may be some delay in the system. The option to add a new item to the list while the previous request was not finalized was then removed.
+Finally, possible errors in the requests were dealt with, using try catch, changing a state to print this error to the user.
 
-### `npm start`
+#### This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# requisicaoHTTPreact
+#### To learn React, check out the [React documentation](https://reactjs.org/).
